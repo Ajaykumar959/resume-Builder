@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Generator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <!---HTML Code Start From Here-->
+    <div class="container">
+      <h1 class="text-center my-3">Resume Generator</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <!--1st col-->
+          <h3>Personal Information</h3>
+          <div class="from-group">
+            <label for="firstname">First Name</label>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="Enter Your Name Here"
+              class="form-control"
+            />
+          </div>
+          <div class="from-group">
+            <label for="lastname">Last Name</label>
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Enter Your Name Here"
+              class="form-control"
+            />
+          </div>
+          <div class="from-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email Id"
+              class="form-control"
+            />
+          </div>
+
+          <div class="from-group mt-2">
+            <label for="tel">Your Contact</label>
+            <input
+              type="tel"
+              id="tel"
+              placeholder="Enter Your Contact number Here"
+              required
+              pattern="[0-9]"
+              maxlength="10"
+              class="form-control"
+            />
+          </div>
+          <div class="from-group">
+            <label for="address">Your Address</label>
+            <textarea
+              type="text"
+              id="address"
+              placeholder="Fill Your Address"
+              class="form-control"
+              rows="8"
+            ></textarea>
+          </div>
+          <p class="text-secondary mt-2">Links</p>
+          <div class="from-group">
+            <label for="facebook">Facebook</label>
+            <input
+              type="text"
+              name="facebook"
+              id="facebook"
+              placeholder="Enter Your Facebook Id"
+              class="form-control"
+            />
+          </div>
+          <div class="from-group">
+            <label for="tweeter">Tweeter</label>
+            <input
+              type="text"
+              name="tweeter"
+              id="tweeter"
+              placeholder="Enter Your Tweeter Id"
+              class="form-control"
+            />
+          </div>
+          <div class="from-group">
+            <label for="linkedin">Linkdin</label>
+            <input
+              type="text"
+              name="linkedin"
+              id="linkedin"
+              placeholder="Enter Your Linkdin Id"
+              class="form-control"
+            />
+          </div>
+          <div class="from-group">
+            <label for="github">GitHub</label>
+            <input
+              type="text"
+              name="github"
+              id="github"
+              placeholder="Enter Your GitHub Id"
+              class="form-control"
+            />
+          </div>
+
+          
+        </div>
+        <div class="col-md-6">
+          <!--2nd col-->
+          <h3>Professional Information</h3>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
